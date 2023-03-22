@@ -1,0 +1,34 @@
+.section1{
+    background-color: #1F2937;
+    color: #f9FAF8;
+
+}
+
+.section1-container1{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section1-text{
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 10px;
+    
+}
+.header-link-container{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    justify-content: space-evenly;
+}
+
+.section1-container2{
+    display: flex;
+    justify-content: center;
+}
+
+.website-awesome-container{
+    display: flex;
+    flex-flow: column;
+}
