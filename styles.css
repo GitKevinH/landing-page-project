@@ -151,3 +151,9 @@ i{
 body{
     margin: auto;
 }
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color:#E5E7EB
+}
