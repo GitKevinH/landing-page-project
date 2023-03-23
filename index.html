@@ -4,43 +4,93 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/hero-new" rel="stylesheet">
+
     <title>Landing Page</title>
   </head>
   <body>
     <section class="section1">
-        <div class="section1-container1">
-            <h1 style="font-size: 24px; margin: 10px;">Header Logo</h1>
-            <ul class="header-link-container">
-                <li class="section1-text">header link one</li>
-                <li class="section1-text">header link two</li>
-                <li class="section1-text">header link three</li>
-            </ul>
-            
-        </div>
-        <br><br><br>
+      <div class="section1-container1">
+        <h1 style="font-size: 24px; margin: 10px; font-family: 'Hero New', sans-serif;">Header Logo</h1>
+        <ul class="header-link-container">
+          <li class="section1-text">header link one</li>
+          <li class="section1-text">header link two</li>
+          <li class="section1-text">header link three</li>
+        </ul>
+      </div>
+      <br /><br /><br />
 
-        <div class="section1-container2">
-            <div class="website-awesome-container">
-                <p>testing</p>
-                <p>testing</p>
-                <p>testing</p>
-            </div>
-            <img src="data:image/png;base64,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" alt="literally insert image here">
+      <div class="section1-container2">
+        <div class="website-awesome-container">
+          <p class="main-text">This website is awesome</p>
+          <p style="margin: 0px 0px 10px;">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+          <button class="sign-up-button1" style="border: 0px;" type="button" onclick="alert('Sike!')"><b>Sign Up</b></button>
         </div>
-        
-        <br><br><br><br>
+        <img
+          src="data:image/png;base64,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"
+          alt="literally insert image here"
+        />
+      </div>
 
+      <br /><br /><br /><br />
     </section>
 
     <section class="section2">
-        <div >
-            <p>some random information</p>
+      <div class="section2-header">
+        <p style="font-family: 'Hero New', sans-serif;"><b>some random information.</b></p>
+      </div>
+      <div class="section2-container1">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+
+      <div class="section2-container2">
+        <div class="text-under-box">
+          this is some subtext under an illustration or image
         </div>
-        
+        <div class="text-under-box">
+          this is some subtext under an illustration or image
+        </div>
+        <div class="text-under-box">
+          this is some subtext under an illustration or image
+        </div>
+        <div class="text-under-box">
+          this is some subtext under an illustration or image
+        </div>
+      </div>
     </section>
-    <section class="section3"></section>
-    <section class="section4"></section>
+    <section class="section3">
+        <br><br><br>
+      <p class="quote-text">
+       This is an inspiring quote, or a testimonial from a customer. Maybe it's
+        just filling up space, or maybe people will actually read it. Who knows?
+        All I know is that it looks nice.
+      </p>
+      
+        <p class="thor"><b>-Thor, God of Thunder</b> </p>
+     
+      
+      <br><br><br>
+    </section>
+    <section class="section4">
+        <br><br><br>
+        <div class="box2">
+            <div class="box-container">
+                <div class="box-text1"><b><br>Call to action! It's time!</b></b></div>
+                <div class="box-text2"><small>Sign up for our product by clicking that button right over there!</small></div> 
+
+            </div>
+            <div>
+                <button class="sign-up-button2" type="button" onclick="alert('Sike!')"><b>Sign Up</b></button>
+
+            </div>
+            
+        </div>
+
+    </section>
   </body>
 
   <footer></footer>
